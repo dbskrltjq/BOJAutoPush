@@ -14,5 +14,16 @@ public class Main {
 		
 		System.out.println(A - B);
 	
+		
+		// 다른 방법
+		/* 
+		Scanner in = new Scanner(System.in);
+		int A = in.nextInt();
+		int B = in.nextInt();
+		
+		System.out.println(A-B);
+ 
+		in.close();
+		*/
 	}
 }
