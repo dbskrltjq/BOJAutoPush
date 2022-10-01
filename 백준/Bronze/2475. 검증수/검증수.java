@@ -15,8 +15,20 @@ public class Main {
 			total += Math.pow(n, 2);
 		}
 		System.out.println(total%10);
-		
-		
-		
 	}
+	
+	// 다른 방법
+	/*
+	public static void main(String [] args) {
+		Scanner scan = new Scanner(System.in);
+		int sum = 0;
+		
+		for(int i = 0; i<5; i++) {
+			int a = scan.nextInt();
+			sum += a*a;
+		}
+		scan.close();
+		System.out.println(sum%10);
+	}	
+	*/
 }
