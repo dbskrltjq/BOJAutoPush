@@ -12,7 +12,7 @@ public class Main {
 		int total = 0;
 		for(int i = 0; i < 5 ; i++) {
 			int n = Integer.parseInt(str[i]);
-			total += Math.pow(n, 2);
+			total += Math.pow(n, 2);	// Math클래스의 제곱함수
 		}
 		System.out.println(total%10);
 	}
