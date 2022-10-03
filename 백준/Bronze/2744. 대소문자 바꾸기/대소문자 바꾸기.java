@@ -13,7 +13,7 @@ public class Main {
 		for(int i = 0; i < inputData.length(); i++) {
 			char c = inputData.charAt(i);	// charAt() : String으로 저장된 문자열 중에서 한 글자만 선택해서 char타입으로 변환해준다.
 			
-			if(Character.isUpperCase(c)) {
+			if(Character.isUpperCase(c)) {  // 인자가 대문자인 경우 true, 소문자면 false 값 리턴
 				System.out.print(String.valueOf(c).toLowerCase());
 			} else {
 				System.out.print(String.valueOf(c).toUpperCase());
